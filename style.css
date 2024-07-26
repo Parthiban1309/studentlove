@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ body{
+
+    font-family: "Open Sans", sans-serif;
+    
+}
+h4{
+    color: aliceblue;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    background-color: rgba(116, 13, 180, 1);
+    padding: 20px;
+}
+.header-wrapper > nav > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+h2 > span{
+    display: block;
+    font-size: 38px;
+}
+h2 > span > span{
+    color: rgba(86, 52, 196, 1)
+}
+.banner-wrapper > div{
+    width: 50%;
+}
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin: 25px auto;
+}
+p>span{
+    display: block;
+}
+.btn{
+    display: flex;
+}
+.btn1{
+    padding: 8px 30px;
+    background-color: rgba(254, 169, 44, 1);
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px ;
+}
+div > h2{
+    margin-top: 50px 0px;
+}
+.btn2{
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+    margin-left: 60px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.section2 > div{
+    margin-top: 040px;
+}
+.card > div{
+    padding: 30px;
+    padding-bottom: -20;
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.card > div:nth-child(1){
+    background-color: rgba(12, 68, 93, 1);
+}
+.card > div:nth-child(3){
+    background-color: rgba(127, 50, 24, 1);
+}
+.card > div:nth-child(2){
+    background-color: rgba(91, 43, 153, 1);
+}
+.job{
+    margin-bottom: 30px;
+}
+.card > div > span{
+    display: inline-block;
+    margin: 10px 0px;
+}
+.card > div > p{
+    margin: 15px 0px;
+}
+
+.card > div > div > a{
+    color: aliceblue;
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 15px;
+    background-color: transparent;
+    transition: all .30s;
+}
+.card > div > div > a:hover{
+    color: rgb(21, 20, 20);
+    background-color: rgb(252, 204, 73);
+    padding: 11px 11px;
+    border: white solid 2px;
+    border-radius: 15px;
+}
+.card > div > div > span{
+    margin-left: 30px;
+}
+.card > div > div {
+    display: flex;
+    padding: 10px ;
+}
+footer{
+    margin-top: 30px;
+    padding: 1px 0px;
+    background-color: rgb(159, 159, 159);
+}
+footer p{
+    text-align: center;
+    color: black;
+}
+.card > div > div > span{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+/* ------------------------------media query---------------------------------- */
+@media only screen and (max-width: 800px) {
+    .header-wrapper{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    h2 > span{
+        display: inline;
+        font-size: 38px;
+    }
+    .header-wrapper > nav{
+        justify-content: center;
+    }
+    .banner-wrapper{
+        flex-direction: column;
+        
+    }
+    .banner-wrapper > div{
+        width: 100%;
+    }
+    .banner-wrapper > div:nth-child(1){
+        text-align: center;
+        display: inline;
+    }
+    .banner-wrapper > div > div{
+        justify-content: center;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .job{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    h2 > span{
+        font-size: 45px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    h2 > span{
+        font-size: 48px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    h2 > span{
+        font-size: 52px;
+    }
+}
